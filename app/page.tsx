@@ -1,9 +1,5 @@
+import { cn } from "@/lib/utils";
+
 export default function Home() {
-  return (
-    <h1>
-      <div>
-        <h3></h3>
-      </div>
-    </h1>
-  );
+  return <div className={cn("text-blue-600")}>hello</div>;
 }
